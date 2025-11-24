@@ -10,7 +10,11 @@ const CONFIG = {
   API_MASTER_KEY: process.env.API_MASTER_KEY || "1",
   UPSTREAM_URL: process.env.UPSTREAM_URL || "https://botzy.hexabiz.com.pk/api/hexabizApi",
   UPSTREAM_ORIGIN: process.env.UPSTREAM_ORIGIN || "https://botzy.hexabiz.com.pk",
-  MODELS: ["L1T3-Ωᴹ²"],
+  MODELS: [
+    "L1T3-Ωᴹ²", 
+    "L1T3-Σᴹ²",
+    "𝚂cεηεBαsε"
+  ],
   DEFAULT_MODEL: process.env.DEFAULT_MODEL || "L1T3-Ωᴹ²",
 };
 
